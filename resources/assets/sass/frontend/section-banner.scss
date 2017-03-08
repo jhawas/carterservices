@@ -1,0 +1,29 @@
+.section-banner {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    .parallax-banner {
+        min-height: 500px;
+        background: transparent;
+        position: relative;
+    }
+    .banner-content {
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px 40px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+
+        h1{
+        	color: #8ed349;
+        	font-size: 45px;
+        }
+
+        p{
+        	color: #ffffff;
+        	font-size: 24px;
+        }
+    }
+}

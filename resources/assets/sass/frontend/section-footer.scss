@@ -1,0 +1,29 @@
+.section-footer{
+	display: inline-block;
+	width: 100%;
+	background-color: #282823;
+	text-align: center;
+
+	.link{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		h3{
+
+		}
+	}
+
+	.link-list{
+		list-style-type: none;
+    	padding: 0;
+    	li{
+    		a{
+    			color: #ffffff;
+    		}
+    	}
+	}
+
+	.copyright{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}

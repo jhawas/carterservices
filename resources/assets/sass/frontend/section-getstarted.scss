@@ -1,0 +1,38 @@
+.section-getstarted {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    .parallax-banner {
+        min-height: 500px;
+        background: transparent;
+        position: relative;
+    }
+    .started-content {
+        display: inline-block;
+        width: 100%;
+        padding: 60px 0;
+
+        a{
+            text-decoration: none;
+        }
+
+        h2 {
+            transform: uppercase;
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: 700;
+            padding: 20px 0;
+        }
+        span.started {
+            border: 2px solid #8ed349;
+            padding: 7px;
+            color: #8ed349;
+            font-size: 20px;
+        }
+    }
+    .background-container {
+        display: inline-block;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}

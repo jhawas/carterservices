@@ -1,0 +1,14 @@
+.section-login, .section-register{
+	display: inline-block;
+    width: 100%;
+    padding: 50px 0;
+
+    .login-heading, .register-heading{
+    	text-align: center;
+    	text-transform: uppercase;
+	    font-size: 24px;
+	    font-weight: 700;
+    }
+}
+
+

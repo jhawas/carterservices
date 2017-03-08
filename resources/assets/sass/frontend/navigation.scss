@@ -1,0 +1,32 @@
+.carter-nav {
+    .become {
+        border: 2px solid #8ed349;
+        padding: 7px;
+    }
+
+    .nav-auth{
+    	li{
+    		a{
+    			color: #8ed349;
+    		}
+    	}
+    }
+}
+
+nav.navbar {
+    ul.nav {
+        li {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    margin-bottom: 0;
+    .container {
+        padding-top: 10px;
+    	padding-bottom: 10px;
+    }
+    .icon {
+        padding-right: 10px;
+    }
+}

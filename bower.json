@@ -1,0 +1,30 @@
+{
+  "name": "carter services",
+  "description": "gas marketer",
+  "main": "",
+  "authors": [
+    "Norman Aranez <araneznorman12@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gas",
+    "marketer",
+    "carter",
+    "services"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "parallax.js": "^1.4.2",
+    "font-awesome": "^4.7.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "swiper": "^3.4.1"
+  }
+}
