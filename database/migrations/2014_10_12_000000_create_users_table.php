@@ -28,8 +28,8 @@ class CreateUsersTable extends Migration
             $table->string('img')->nullable();
             $table->string('gps_lattitude')->nullable();
             $table->string('gps_longhitude')->nullable();
-            $table->integer('is_confirmed')->default(0);
-            $table->integer('is_conpleted')->default(0);
+            $table->boolean('confirmed')->default(0);
+            $table->string('confirmation_code')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

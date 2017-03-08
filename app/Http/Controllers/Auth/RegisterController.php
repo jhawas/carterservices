@@ -60,14 +60,14 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        $company = $data['user_type'] == 'technician' ? 'required' : '';
+        $user_type = $data['user_type'] == 'technician' ? 'required' : '';
 
         return Validator::make($data, [
             'first_name' => 'required|max:255',
             'last_name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
-            'company_name' => $company,
+            'company_name' => $user_type,
             'user_type' => 'required',
         ]);
     }
@@ -80,7 +80,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $company = $data['user_type'] == 'technician' ? $data['company_name'] : '';
+        $user_type = $data['user_type'] == 'technician' ? $data['company_name'] : '';
 
         return User::create([
             'first_name' => $data['first_name'],
@@ -88,7 +88,7 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
             'user_type' => $data['user_type'],
-            'company_name' => $company,
+            'company_name' => $user_type,
         ]);
     }
 
